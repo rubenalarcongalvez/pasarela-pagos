@@ -1,0 +1,33 @@
+@import "primeicons/primeicons.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+    border: none;
+}
+
+code {
+    background-color: gray;
+    padding: 5px;
+    @apply rounded;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton-tipo-pago {
+    @apply flex flex-col w-[250px] cursor-pointer;
+
+    &:hover {
+        @apply transition scale-105;
+    }
+
+    img {
+        @apply rounded-t;
+    }
+    span {
+        @apply block w-full bg-blue-600 text-white text-sm p-3 text-center rounded-b;
+    }
+}

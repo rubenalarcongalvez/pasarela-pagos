@@ -1,0 +1,22 @@
+<main class="flex justify-center items-center flex-col">
+    <h2 class="text-center flex gap-2 items-center">
+        <span>Simplemente vale con poner el enlace al pago de Ko-Fi</span> 
+    </h2>
+    <span>Está en la configuración de la cuenta, en "Buttons and Widgets". Y lo podemos modificar como queramos ya que es un enlace.</span>
+    <ul>
+        <li>Botón HTML (es un botón que redirige, sería mejor poner el enlace directamente nosotros, así lo podemos modificar).</li>
+        <li>Widget flotante (debe ir en index.html)</li>
+        <li>Widget embebido (es un iframe, lo podemos modificar y poner donde queramos)</li>
+    </ul>
+
+    <section class="flex gap-2 items-center justify-center">
+        <a href="https://ko-fi.com/S6S619M4ED" target="_blank"><img height="36" style="border:0px; height:36px;" src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" border="0" alt="Buy Me a Coffee at ko-fi.com" class="hover:opacity-90"/></a>
+        <button class="rounded-xl bg-blue-600 p-2 flex gap-1 items-center cursor-pointer hover:opacity-90 mb-1" (click)="redirigirKoFi()">
+            <img src="ko-fi.png" width="20px" class="rounded" alt="Ko-Fi Donation">
+            <span>Dóname porfaa (modificado)</span>
+        </button>
+    </section>
+
+    <!-- Lo podemos editar como queramos -->
+    <iframe id="kofiframe" src="https://ko-fi.com/rubenalarcongalvez/?hidefeed=true&widget=true&embed=true&preview=true" style="border:none;width:100%;padding:4px;background:#f9f9f9;" height="712" title="rubenalarcongalvez"></iframe>
+</main>

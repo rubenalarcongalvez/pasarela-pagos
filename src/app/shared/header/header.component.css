@@ -1,0 +1,3 @@
+button:not(.activo) {
+    @apply opacity-50; 
+}
