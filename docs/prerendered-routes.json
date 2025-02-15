@@ -1,0 +1,7 @@
+{
+  "routes": {
+    "/miscellaneous-features/ko-fi": {},
+    "/miscellaneous-features/paypal": {},
+    "/miscellaneous-features/stripe": {}
+  }
+}
