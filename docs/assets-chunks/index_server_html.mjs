@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>Pasarela de Pagos</title>
-  <base href="/miscellaneous-features/">
+  <base href="/pasarela-pagos/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-HDXMDPJA.css"></head>

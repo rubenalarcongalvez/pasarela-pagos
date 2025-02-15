@@ -1,7 +1,7 @@
 {
   "routes": {
-    "/miscellaneous-features/ko-fi": {},
-    "/miscellaneous-features/paypal": {},
-    "/miscellaneous-features/stripe": {}
+    "/pasarela-pagos/ko-fi": {},
+    "/pasarela-pagos/paypal": {},
+    "/pasarela-pagos/stripe": {}
   }
 }

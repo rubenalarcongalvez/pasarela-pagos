@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/miscellaneous-features',
+  basePath: '/pasarela-pagos',
   supportedLocales: {
   "en-US": ""
 },
